@@ -1,0 +1,120 @@
+h1, h2, h4, h6{
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #2F281E;
+}
+
+p {
+    font-family: 'Poppins';
+    color: #2F281E;
+}
+
+.btn-primary-custom {
+    background: #ff9900;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border: 0;
+}
+
+.btn-primary-custom:hover {
+    background: #ee9002;
+    border: 0;
+}
+
+.btn-outline-custom {
+    background: none;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #173A56;
+    border: 1px solid #BCD0E5;
+}
+
+.btn-outline-custom:hover {
+    background: none;
+    border: 1px solid #93a0af;
+}
+
+.features, .effortless-validation {
+    margin-top: 114px;
+}
+
+.features .row h2 {
+    text-align: center;
+}
+
+.features .bg-features .container .row h4 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #2F281E;
+    margin-bottom: 30px;
+}
+
+.features .bg-features {
+    width: 100%;
+    height: 385px;
+    background-image: url('../images/bg-features.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 135% 100%;
+}
+
+.feat-ic-purple, .feat-ic-orange, .feat-ic-red, .feat-ic-blue {
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+}
+
+.feat-ic-purple {
+    background: #7752BE;
+}
+
+.feat-ic-orange {
+    background: #FAB005;
+}
+
+.feat-ic-red {
+    background: #F03E3D;
+}
+
+.feat-ic-blue {
+    background: #4DADF7;
+}
+
+.navbar-nav .nav-link {
+    color: #2F281E;
+}
+
+@media (max-width: 1400px) {
+    .features .bg-features {
+        background: none;
+        height: auto;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .btn-outline-custom, .btn-primary-custom {
+        margin-top: 10px;
+        margin-left: 0px !important;
+    }
+    .enter {
+        display: none;
+    }
+    .feat-ic-purple, .feat-ic-orange, .feat-ic-red, .feat-ic-blue {
+        margin: 0 auto;
+        margin-bottom: 25px !important;
+    }
+    .features .bg-features .container .row h4 {
+        text-align: center;
+        margin-bottom: 1em;
+    }
+    .features .bg-features .container .row p {
+        text-align: center;
+        margin-bottom: 3em;
+    }
+    .top2 {
+        margin-top: 0px !important;
+    }
+}
